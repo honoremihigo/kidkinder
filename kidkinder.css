@@ -121,18 +121,38 @@ body {
 }
 
 .services {
-  padding: 30px;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 .services .service-card {
+  background-color: var(--color-5);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.377);
+  border-radius: 5px;
   display: flex;
-  border: 1px solid red;
-  width: 450px;
-  padding: 20px;
-  justify-content: space-between;
+  width: 400px;
+  padding: 30px 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
 .services .service-card svg {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+  fill: var(--color-1);
+}
+.services .service-card h2 {
+  font-family: var(--fontfamily-1);
+}
+.services .service-card p {
+  color: var(--color-3);
+  font-size: 1rem;
+  line-height: 25px;
+}
+.services .service-card .service-words {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }/*# sourceMappingURL=kidkinder.css.map */
