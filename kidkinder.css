@@ -222,7 +222,7 @@ body {
 }
 
 .classes {
-  padding: 30px;
+  padding: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -251,6 +251,10 @@ body {
   width: 350px;
   background: var(--color-5);
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .classes .classes-cards .classes-card img {
   width: 100%;
@@ -267,6 +271,11 @@ body {
 }
 .classes .classes-cards .classes-card .classes-card-one p {
   text-align: center;
+  color: var(--color-3);
+  font-size: 0.9rem;
+}
+.classes .classes-cards .classes-card .classes-card-one h1 {
+  font-size: 1.5rem;
 }
 .classes .classes-cards .classes-card .classes-card-two {
   display: flex;
@@ -287,10 +296,134 @@ body {
 .classes .classes-cards .classes-card .classes-card-two table th {
   border-bottom: 1px solid var(--color-3);
   border-right: 1px solid var(--color-3);
+  color: rgba(0, 0, 0, 0.502);
 }
 .classes .classes-cards .classes-card .classes-card-two table .no-bottom-border {
   border-bottom: none;
 }
 .classes .classes-cards .classes-card a {
   background-color: var(--color-1);
+  color: var(--color-5);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.booking {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.booking .booking-one {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.booking .booking-one a {
+  background-color: var(--color-1);
+  color: var(--color-5);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+.booking .booking-one h2 {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--color-1);
+  gap: 10px;
+}
+.booking .booking-one h2 hr {
+  margin: 0;
+  width: 50px;
+  height: 1px;
+  border: 1px solid var(--color-1);
+}
+.booking .booking-one .booking-check {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.booking .booking-one .booking-check p {
+  font-size: 0.9rem;
+}
+.booking .booking-one .booking-check svg {
+  width: 25px;
+  height: 25px;
+  fill: var(--color-1);
+}
+.booking .booking-one .booking-check .booking-check-one {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.booking .booking-two {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.booking .booking-two .booking-form {
+  background-color: var(--color-2);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  border-radius: 5px 5px 0 0;
+}
+.booking .booking-two .booking-form h1 {
+  color: var(--color-4);
+}
+.booking .booking-two form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--color-1);
+  height: 100%;
+  width: 100%;
+  padding: 20px 0;
+  border-radius: 0 0 5px 5px;
+}
+.booking .booking-two form input {
+  width: 350px;
+  background-color: var(--color-4);
+  padding: 15px 35px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.booking .booking-two form select {
+  width: 350px;
+  background-color: var(--color-4);
+  padding: 15px 35px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.booking .booking-two form button {
+  width: 350px;
+  background-color: var(--color-4);
+  padding: 15px 35px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: var(--color-2);
+  color: var(--color-4);
 }/*# sourceMappingURL=kidkinder.css.map */
