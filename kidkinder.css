@@ -38,6 +38,8 @@ body {
   position: sticky;
   top: 0;
   background-color: var(--color-4);
+  opacity: 1;
+  z-index: 1;
 }
 .nav svg {
   width: 70px;
@@ -426,4 +428,93 @@ body {
   outline: none;
   background-color: var(--color-2);
   color: var(--color-4);
+}
+
+.teachers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.teachers h2 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-1);
+}
+.teachers h2 hr {
+  width: 50px;
+  height: 1px;
+  border: 1px solid var(--color-1);
+}
+.teachers p {
+  font-family: var(--fontfamily-1);
+  font-size: 1.2rem;
+}
+.teachers .teachers-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+}
+.teachers .teachers-cards .teachers-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 250px;
+}
+.teachers .teachers-cards .teachers-card:hover .teachers-card-one .teachers-links {
+  opacity: 1;
+}
+.teachers .teachers-cards .teachers-card .teachers-card-one {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: relative;
+}
+.teachers .teachers-cards .teachers-card .teachers-card-one svg {
+  width: 20px;
+  height: 20px;
+}
+.teachers .teachers-cards .teachers-card .teachers-card-one img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.teachers .teachers-cards .teachers-card .teachers-card-one .teachers-links {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(23, 163, 184, 0.7098039216);
+  gap: 20px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.teachers .teachers-cards .teachers-card .teachers-card-one .teachers-links a {
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 1s;
+}
+.teachers .teachers-cards .teachers-card .teachers-card-one .teachers-links a svg {
+  fill: var(--color-4);
+  transition: 1s;
+}
+.teachers .teachers-cards .teachers-card .teachers-card-one .teachers-links a:hover {
+  background-color: var(--color-4);
+}
+.teachers .teachers-cards .teachers-card .teachers-card-one .teachers-links a:hover svg {
+  fill: black;
 }/*# sourceMappingURL=kidkinder.css.map */
