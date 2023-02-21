@@ -947,9 +947,6 @@ body{
     }
     .services{
         padding: 20px;
-        .service-card{
-            // padding: 20px;
-        }
     }
 }
 
@@ -957,9 +954,6 @@ body{
     .teachers{
         .teachers-cards{
             grid-template-columns: 1fr 1fr 1fr;
-            .teachers-card{
-
-            }
         }
     }
     .blog{
@@ -1247,7 +1241,6 @@ body{
                 width: 100%;
                 .teachers-card-one{
                     width: 100%;
-                    border: 1px solid blue;
                 }
             }
         }
@@ -1271,9 +1264,18 @@ body{
     }
 
     .about{
+        padding: 20px 10px;
         .about-one{
             .about-img{
                 width: 100%;
+            }
+            .about-us{
+                .our-service{
+                    flex-direction: column;
+                    img{
+                        width: 100%;
+                    }
+                }
             }
         }
     }
@@ -1321,5 +1323,83 @@ body{
 }
 
 @media (max-width:372px) {
-    
+    .services{
+        .service-card{
+            width: 80%;
+        }
+    }
+
+    .classes{
+        padding: 0px 10px;
+        .classes-cards{
+            width: 100%;
+            .classes-card{
+                width: 100%;
+            }
+        }
+    }
+
+    .booking{
+        padding: 0px 10px;
+    }
+
+    .teachers{
+        .teachers-cards{
+            width: 100%;
+        }
+    }
+
+    .intro{
+        .intro-words{
+            h1{
+                font-size: 3rem;
+            }
+        }
+    }
+}
+
+
+@media (max-width:400px) {
+    .services{
+        .service-card{
+            width: 75%;
+        }
+    }
+
+    .end{
+        .end-one{
+            width: 100%;
+            .end-sites{
+                width: 100%;
+            }
+            .ends-form{
+                form{
+                    input{
+                         width: 100%;
+                    }
+                    button{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .classes{
+        .classes-cards{
+            .classes-card{
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media (max-width:316px) {
+    .services{
+            .service-card{
+                flex-direction: column;
+                gap: 20px;
+                width: 100%;
+            }
+    }
 }

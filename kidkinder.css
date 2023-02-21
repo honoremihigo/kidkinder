@@ -1109,7 +1109,6 @@ body {
   }
   .teachers .teachers-cards .teachers-card .teachers-card-one {
     width: 100%;
-    border: 1px solid blue;
   }
   .nav .nav-logo {
     gap: 5px;
@@ -1125,7 +1124,16 @@ body {
     width: 200px;
     top: 70px;
   }
+  .about {
+    padding: 20px 10px;
+  }
   .about .about-one .about-img {
+    width: 100%;
+  }
+  .about .about-one .about-us .our-service {
+    flex-direction: column;
+  }
+  .about .about-one .about-us .our-service img {
     width: 100%;
   }
   .classes {
@@ -1161,5 +1169,55 @@ body {
   }
   .services .service-card {
     width: 90%;
+  }
+}
+@media (max-width: 372px) {
+  .services .service-card {
+    width: 80%;
+  }
+  .classes {
+    padding: 0px 10px;
+  }
+  .classes .classes-cards {
+    width: 100%;
+  }
+  .classes .classes-cards .classes-card {
+    width: 100%;
+  }
+  .booking {
+    padding: 0px 10px;
+  }
+  .teachers .teachers-cards {
+    width: 100%;
+  }
+  .intro .intro-words h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 400px) {
+  .services .service-card {
+    width: 75%;
+  }
+  .end .end-one {
+    width: 100%;
+  }
+  .end .end-one .end-sites {
+    width: 100%;
+  }
+  .end .end-one .ends-form form input {
+    width: 100%;
+  }
+  .end .end-one .ends-form form button {
+    width: 100%;
+  }
+  .classes .classes-cards .classes-card {
+    width: 90%;
+  }
+}
+@media (max-width: 316px) {
+  .services .service-card {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
   }
 }/*# sourceMappingURL=kidkinder.css.map */
