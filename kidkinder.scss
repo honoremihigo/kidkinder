@@ -10,7 +10,7 @@
     font-family: poppins , sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    border: 1px solid red;
+    // border: 1px solid red;
     a{
         text-decoration: none;
     }
@@ -1216,5 +1216,100 @@ body{
 
 
 @media (max-width:564px) {
+    .booking{
+        .booking-two{
+            width: 100%;
+        }
+    }
+    .teachers{
+        .teachers-cards{
+            gap: 10px;
+            .teachers-card{
+                width: 220px;
+                .teachers-card-one{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:468px) {
+    body{
+        font-size: 15px;
+    }
+    .teachers{
+        .teachers-cards{
+            width: 70%;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            .teachers-card{
+                width: 100%;
+                .teachers-card-one{
+                    width: 100%;
+                    border: 1px solid blue;
+                }
+            }
+        }
+    }
+
+    .nav{
+        .nav-logo{
+            gap: 5px;
+            h1{
+                font-size: 2rem;
+            }
+            svg{
+                width: 45px;
+                height: 45px;
+            }
+        }
+    }
+
+    .about{
+        .about-one{
+            .about-img{
+                width: 100%;
+            }
+        }
+    }
+
+    .classes{
+        padding:0px 20px ;
+        .classes-cards{
+            width: 100%;
+        }
+    }
+
+    .blog{
+        padding: 0px 20px;
+        .blog-cards{
+            width: 100%;
+        }
+    }
+
+    .intro{
+        padding: 10px 20px;
+        .intro-words{
+            width: 100%;
+        }
+    }
+
+    .booking{
+        .booking-one{
+            width: 100%;
+        }
+    }
+
+    .services{
+        width: 100%;
+        padding: 10px;
+        .service-card{
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width:372px) {
     
 }
