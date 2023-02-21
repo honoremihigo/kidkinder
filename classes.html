@@ -17,7 +17,7 @@
                 <h1>KidKinder</h1>
             </div>
         </a>
-        <div class="nav-links">
+        <div class="nav-links" id="nav">
             <a href="index.html">HOME</a>
             <a href="about.html" >About</a>
             <a href="classes.html" class="on">Classes</a>
@@ -30,6 +30,11 @@
         </div>
         <div class="nav-join">
             <a href=""> Join Class</a>
+        </div>
+        <div class="menu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" id="menu">
+                <path d="M0 7.5L0 12.5L50 12.5L50 7.5 Z M 0 22.5L0 27.5L50 27.5L50 22.5 Z M 0 37.5L0 42.5L50 42.5L50 37.5Z"/>
+            </svg>
         </div>
     </div>
     <div class="all-intro">
@@ -298,6 +303,13 @@
                 <p>Distributed by: <a href="">ThemeWagon</a></p>
             </div>
         </div>
-    </div> 
+    </div>
+    <script>
+        var menubtn = document.querySelector('#menu');
+        var nav = document.querySelector('#nav');
+        menubtn.onclick = function(){
+            nav.classList.toggle('onclick');
+        }
+    </script> 
 </body>
 </html>

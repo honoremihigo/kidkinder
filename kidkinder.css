@@ -11,6 +11,7 @@
   font-family: poppins, sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  border: 1px solid red;
 }
 * a {
   text-decoration: none;
@@ -90,6 +91,13 @@ body {
   border-radius: 20px;
   font-size: 1.2rem;
   transition: 1s;
+}
+.nav .menu {
+  display: none;
+}
+.nav .menu svg {
+  width: 40px;
+  height: 40px;
 }
 
 .intro {
@@ -411,7 +419,7 @@ body {
   border-radius: 0 0 5px 5px;
 }
 .booking .booking-two form input {
-  width: 350px;
+  width: 95%;
   background-color: var(--color-4);
   padding: 15px 35px;
   border-radius: 10px;
@@ -419,7 +427,7 @@ body {
   outline: none;
 }
 .booking .booking-two form select {
-  width: 350px;
+  width: 95%;
   background-color: var(--color-4);
   padding: 15px 35px;
   border-radius: 10px;
@@ -427,7 +435,7 @@ body {
   outline: none;
 }
 .booking .booking-two form button {
-  width: 350px;
+  width: 95%;
   background-color: var(--color-4);
   padding: 15px 35px;
   border-radius: 10px;
@@ -852,4 +860,133 @@ body {
 }
 .all-intro .all-intro-one a {
   color: var(--color-4);
+}
+
+@media (max-width: 1286px) {
+  .services {
+    padding: 20px;
+  }
+  .services .service-card {
+    width: 350px;
+  }
+}
+@media (max-width: 1206px) {
+  .nav {
+    justify-content: space-between;
+  }
+  .nav .nav-links {
+    top: 95px;
+    position: absolute;
+    background-color: var(--color-5);
+    justify-content: start;
+    align-items: flex-start;
+    left: -300px;
+    width: 300px;
+    height: 700px;
+    padding: 40px 20px;
+    flex-direction: column;
+    gap: 50px;
+    transition: 0.3s;
+  }
+  .nav .onclick {
+    left: 0;
+  }
+  .nav .onclick .nav-join {
+    background-color: red;
+  }
+  .nav .nav-join {
+    display: none;
+  }
+  .nav .menu {
+    display: block;
+  }
+  .services {
+    padding: 20px;
+  }
+}
+@media (max-width: 1168px) {
+  .teachers .teachers-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .blog .blog-cards {
+    gap: 10px;
+  }
+}
+@media (max-width: 1140px) {
+  .blog .blog-cards .blog-card {
+    width: 320px;
+  }
+  .classes .classes-cards {
+    gap: 10px;
+  }
+  .classes .classes-cards .classes-card {
+    width: 320px;
+  }
+  .services {
+    gap: 5px;
+  }
+  .services .service-card {
+    width: 320px;
+  }
+  .blog .blog-cards {
+    gap: 10px;
+  }
+}
+@media (max-width: 1018px) {
+  .blog .blog-cards {
+    gap: 4px;
+  }
+  .classes .classes-cards {
+    gap: 7px;
+  }
+}
+@media (max-width: 1015px) {
+  .blog .blog-cards .blog-card {
+    width: 300px;
+  }
+}
+@media (max-width: 1004px) {
+  .services {
+    grid-template-columns: 1fr 1fr;
+  }
+  .services .service-card {
+    width: 400px;
+  }
+  .end .end-one {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .classes .classes-cards .classes-card {
+    width: 300px;
+  }
+  .blog .blog-cards {
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 930px) {
+  .classes .classes-cards {
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 863px) {
+  .teachers .teachers-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .booking {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .booking .booking-one {
+    width: 85%;
+  }
+  .booking .booking-two {
+    width: 85%;
+  }
+  .booking .booking-two .booking-form {
+    width: 100%;
+  }
 }/*# sourceMappingURL=kidkinder.css.map */
