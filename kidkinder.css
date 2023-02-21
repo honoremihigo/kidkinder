@@ -1115,17 +1115,27 @@ body {
     gap: 5px;
   }
   .nav .nav-logo h1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
   .nav .nav-logo svg {
     width: 45px;
     height: 45px;
+  }
+  .nav .nav-links {
+    width: 200px;
+    top: 70px;
   }
   .about .about-one .about-img {
     width: 100%;
   }
   .classes {
     padding: 0px 20px;
+  }
+  .classes h2 {
+    font-size: 1rem;
+  }
+  .classes h2 hr {
+    width: 30px;
   }
   .classes .classes-cards {
     width: 100%;
