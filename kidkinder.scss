@@ -242,7 +242,7 @@ body{
 }
 
 
-.classes{
+.classes{   
     padding: 70px;
     display: flex;
     flex-direction: column;
@@ -934,6 +934,15 @@ body{
         }
         .menu{
             display: block;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            div{
+                border-radius: 10px;
+                width: 50px;
+                height: 8px;
+                background-color:var(--color-1)
+            }
         }
     }
     .services{
@@ -1012,6 +1021,11 @@ body{
             }
         }
     }
+    .services{
+        .service-card{
+            width: 310px;
+        }
+    }
 }
 
 
@@ -1052,8 +1066,16 @@ body{
         .classes-cards{
             gap: 10px;
             grid-template-columns: 1fr 1fr;
+            .classes-card{
+                width: 350px;
+            }
         }
     }
+     .teachers{
+        .teachers-cards{
+            gap: 25px;
+        }
+     }
 }
 
 
@@ -1066,14 +1088,133 @@ body{
     .booking{
         .booking-one{
             width: 85%;
+            a{
+                width: 150px;
+            }
         }
         gap: 20px;
         flex-direction: column;
+        align-items: center;
         .booking-two{
-            width: 85%;
+            width: 550px;
             .booking-form{
                 width: 100%;
             }
         }
     }
+    .services{
+        .service-card{
+            width: 350px;
+        }
+    }
+    .blog{
+        .blog-cards{
+            gap: 20px;
+            .blog-card{
+                width: 350px;
+            }
+        }
+    }
+
+    .about{
+        .about-one{
+            flex-direction: column;
+            .about-img{
+                width: 70%;
+            }
+            .about-us{
+                width: 100%;
+                .our-service{
+                    img{
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
+
+    .intro{
+        flex-direction: column;
+        gap: 20px;
+        .intro-words{
+            width: 80%;
+        }
+    }
+}
+
+
+@media (max-width:758px) {
+    .blog{
+        .blog-cards{
+            gap: 10px;
+            .blog-card{
+                width: 320px;
+            }
+        }
+    }
+
+    .services{
+        .service-card{
+            width: 310px;
+        }
+    }
+
+    .classes{
+        .classes-cards{
+            .classes-card{
+                width: 310px;
+            }
+        }
+    }
+}
+
+@media (max-width:688px) {
+    .blog{
+        .blog-cards{
+            .blog-card{
+                width: 300px;
+            }
+        }
+    }
+
+    .services{
+        grid-template-columns: 1fr;
+        .service-card{
+            width: 100%;
+        }
+    }
+
+    .classes{
+        .classes-cards{
+            .classes-card{
+                width: 300px;
+            }
+        }
+    }
+}
+
+
+@media (max-width:648px) {
+    .blog{
+        .blog-cards{
+            grid-template-columns: 1fr;
+            .blog-card{
+                width: 100%;
+            }
+        }
+    }
+
+    .classes{
+        .classes-cards{
+            grid-template-columns: 1fr;
+            .classes-card{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+@media (max-width:564px) {
+    
 }

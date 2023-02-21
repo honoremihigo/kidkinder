@@ -899,6 +899,15 @@ body {
   }
   .nav .menu {
     display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .nav .menu div {
+    border-radius: 10px;
+    width: 50px;
+    height: 8px;
+    background-color: var(--color-1);
   }
   .services {
     padding: 20px;
@@ -944,6 +953,9 @@ body {
   .blog .blog-cards .blog-card {
     width: 300px;
   }
+  .services .service-card {
+    width: 310px;
+  }
 }
 @media (max-width: 1004px) {
   .services {
@@ -971,6 +983,12 @@ body {
     gap: 10px;
     grid-template-columns: 1fr 1fr;
   }
+  .classes .classes-cards .classes-card {
+    width: 350px;
+  }
+  .teachers .teachers-cards {
+    gap: 25px;
+  }
 }
 @media (max-width: 863px) {
   .teachers .teachers-cards {
@@ -979,14 +997,88 @@ body {
   .booking {
     gap: 20px;
     flex-direction: column;
+    align-items: center;
   }
   .booking .booking-one {
     width: 85%;
   }
+  .booking .booking-one a {
+    width: 150px;
+  }
   .booking .booking-two {
-    width: 85%;
+    width: 550px;
   }
   .booking .booking-two .booking-form {
+    width: 100%;
+  }
+  .services .service-card {
+    width: 350px;
+  }
+  .blog .blog-cards {
+    gap: 20px;
+  }
+  .blog .blog-cards .blog-card {
+    width: 350px;
+  }
+  .about .about-one {
+    flex-direction: column;
+  }
+  .about .about-one .about-img {
+    width: 70%;
+  }
+  .about .about-one .about-us {
+    width: 100%;
+  }
+  .about .about-one .about-us .our-service img {
+    width: 30%;
+  }
+  .intro {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .intro .intro-words {
+    width: 80%;
+  }
+}
+@media (max-width: 758px) {
+  .blog .blog-cards {
+    gap: 10px;
+  }
+  .blog .blog-cards .blog-card {
+    width: 320px;
+  }
+  .services .service-card {
+    width: 310px;
+  }
+  .classes .classes-cards .classes-card {
+    width: 310px;
+  }
+}
+@media (max-width: 688px) {
+  .blog .blog-cards .blog-card {
+    width: 300px;
+  }
+  .services {
+    grid-template-columns: 1fr;
+  }
+  .services .service-card {
+    width: 100%;
+  }
+  .classes .classes-cards .classes-card {
+    width: 300px;
+  }
+}
+@media (max-width: 648px) {
+  .blog .blog-cards {
+    grid-template-columns: 1fr;
+  }
+  .blog .blog-cards .blog-card {
+    width: 100%;
+  }
+  .classes .classes-cards {
+    grid-template-columns: 1fr;
+  }
+  .classes .classes-cards .classes-card {
     width: 100%;
   }
 }/*# sourceMappingURL=kidkinder.css.map */
