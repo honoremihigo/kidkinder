@@ -1369,6 +1369,7 @@ body{
     .services{
         .service-card{
             width: 75%;
+            flex-direction: column;
         }
     }
 
@@ -1392,6 +1393,7 @@ body{
     }
 
     .classes{
+        padding: 10px 5px;
         .classes-cards{
             .classes-card{
                 width: 90%;

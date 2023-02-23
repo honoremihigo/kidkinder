@@ -1200,6 +1200,7 @@ body {
 @media (max-width: 400px) {
   .services .service-card {
     width: 75%;
+    flex-direction: column;
   }
   .end .end-one {
     width: 100%;
@@ -1212,6 +1213,9 @@ body {
   }
   .end .end-one .ends-form form button {
     width: 100%;
+  }
+  .classes {
+    padding: 10px 5px;
   }
   .classes .classes-cards .classes-card {
     width: 90%;
