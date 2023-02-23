@@ -1140,7 +1140,7 @@ body {
     width: 100%;
   }
   .classes {
-    padding: 0px 20px;
+    padding: 20px 5px;
   }
   .classes h2 {
     font-size: 1rem;
@@ -1152,7 +1152,7 @@ body {
     width: 100%;
   }
   .blog {
-    padding: 0px 20px;
+    padding: 20px 5px;
   }
   .blog .blog-cards {
     width: 100%;
@@ -1188,7 +1188,7 @@ body {
     width: 100%;
   }
   .booking {
-    padding: 0px 10px;
+    padding: 10px 0px;
   }
   .teachers .teachers-cards {
     width: 100%;
