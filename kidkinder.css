@@ -874,13 +874,13 @@ body {
     justify-content: space-between;
   }
   .nav .nav-links {
-    top: 95px;
+    top: 92px;
     position: absolute;
     background-color: var(--color-5);
     justify-content: start;
     align-items: flex-start;
     left: -300px;
-    width: 300px;
+    width: 250px;
     height: 700px;
     padding: 40px 20px;
     flex-direction: column;
@@ -1051,6 +1051,9 @@ body {
   }
   .classes .classes-cards .classes-card {
     width: 310px;
+  }
+  .all-intro h1 {
+    font-size: 3rem;
   }
 }
 @media (max-width: 688px) {
