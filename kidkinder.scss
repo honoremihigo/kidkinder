@@ -7,7 +7,7 @@
     --fontfamily-1:'comic sans ms'
 }
 *{
-    font-family: poppins , sans-serif;
+    font-family:  sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
     // border: 1px solid red;
@@ -1336,7 +1336,7 @@ body{
     }
 
     .classes{
-        padding: 0px 10px;
+        padding: 10px 10px;
         .classes-cards{
             width: 100%;
             .classes-card{
@@ -1346,7 +1346,7 @@ body{
     }
 
     .booking{
-        padding: 10px 0px;
+        padding: 10px 10px;
     }
 
     .teachers{
@@ -1393,7 +1393,7 @@ body{
     }
 
     .classes{
-        padding: 10px 5px;
+        padding: 10px 10px;
         .classes-cards{
             .classes-card{
                 width: 90%;
@@ -1404,10 +1404,10 @@ body{
 
 @media (max-width:316px) {
     .services{
-            .service-card{
+        .service-card{
                 flex-direction: column;
                 gap: 20px;
                 width: 100%;
-            }
+        }
     }
 }
