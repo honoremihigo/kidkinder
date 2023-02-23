@@ -1216,6 +1216,9 @@ body{
 
 
 @media (max-width:564px) {
+    :root{
+        --fontfamily-1:sans-serif;
+    }
     .booking{
         .booking-two{
             width: 100%;
