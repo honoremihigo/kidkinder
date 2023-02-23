@@ -861,6 +861,95 @@ body {
   color: var(--color-4);
 }
 
+.contacts {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.contacts h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  color: var(--color-1);
+  font-weight: 500;
+}
+.contacts h2 hr {
+  margin: 0;
+  width: 50px;
+  height: 1px;
+  border: 1px solid var(--color-1);
+}
+.contacts h1 {
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+.contacts .contacts-one {
+  display: flex;
+  gap: 30px;
+}
+.contacts .contacts-one svg {
+  width: 25px;
+  height: 25px;
+}
+.contacts .contacts-one form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+}
+.contacts .contacts-one form input {
+  width: 100%;
+  padding: 15px 5px;
+  border: 1px solid lightgray;
+  outline: none;
+}
+.contacts .contacts-one form textarea {
+  width: 100%;
+  padding: 5px 10px 100px;
+  border: 1px solid lightgray;
+  outline: none;
+}
+.contacts .contacts-one form button {
+  background-color: var(--color-1);
+  border: none;
+  width: 150px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  color: var(--color-4);
+}
+.contacts .contacts-one .contacts-two {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contacts .contacts-one .contacts-two .contacts-two-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.contacts .contacts-one .contacts-two .contacts-two-links .contacts-svg {
+  background-color: var(--color-1);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.contacts .contacts-one .contacts-two .contacts-two-links .contacts-identify {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contacts .contacts-one .contacts-two .contacts-two-links .contacts-identify h2 {
+  font-family: var(--fontfamily-1);
+}
+
 @media (max-width: 1286px) {
   .services {
     padding: 20px;
@@ -1229,5 +1318,37 @@ body {
     flex-direction: column;
     gap: 20px;
     width: 100%;
+  }
+}
+@media (max-width: 1041px) {
+  .contacts .contacts-one form {
+    width: 400px;
+  }
+}
+@media (max-width: 843px) {
+  .contacts .contacts-one .contacts-two {
+    width: 300px;
+  }
+}
+@media (max-width: 745px) {
+  .contacts .contacts-one form {
+    width: 300px;
+  }
+}
+@media (max-width: 646px) {
+  .contacts .contacts-one {
+    flex-direction: column;
+    width: 100%;
+  }
+  .contacts .contacts-one form {
+    width: 100%;
+  }
+  .contacts .contacts-one .contacts-two {
+    width: 100%;
+  }
+}
+@media (max-width: 498px) {
+  .contacts h1 {
+    font-size: 2rem;
   }
 }/*# sourceMappingURL=kidkinder.css.map */
