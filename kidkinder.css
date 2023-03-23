@@ -26,14 +26,16 @@
   margin: 0;
 }
 
+::-moz-selection {
+  background-color: var(--color-1);
+}
+
+::selection {
+  background-color: var(--color-1);
+}
+
 body {
   margin: 0;
-}
-body::-moz-selection {
-  background-color: var(--color-1);
-}
-body::selection {
-  background-color: var(--color-1);
 }
 
 .nav {
