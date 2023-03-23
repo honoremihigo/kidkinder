@@ -27,6 +27,9 @@
 }
 body{
     margin: 0;
+    &::selection{
+        background-color: var(--color-1);
+    }
 }
 
 .nav{

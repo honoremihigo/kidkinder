@@ -29,6 +29,12 @@
 body {
   margin: 0;
 }
+body::-moz-selection {
+  background-color: var(--color-1);
+}
+body::selection {
+  background-color: var(--color-1);
+}
 
 .nav {
   display: flex;
