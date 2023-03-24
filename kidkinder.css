@@ -1215,13 +1215,17 @@ body {
   }
   .nav .nav-logo {
     gap: 5px;
+    align-items: center;
   }
   .nav .nav-logo h1 {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
   }
   .nav .nav-logo svg {
     width: 45px;
     height: 45px;
+  }
+  .nav .menu svg {
+    width: 30px;
   }
   .nav .nav-links {
     width: 200px;
@@ -1262,6 +1266,9 @@ body {
   }
   .intro .intro-words {
     width: 100%;
+  }
+  .intro .intro-words h1 {
+    font-size: 2rem;
   }
   .booking .booking-one {
     width: 100%;

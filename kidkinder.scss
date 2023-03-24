@@ -1353,12 +1353,18 @@ body{
     .nav{
         .nav-logo{
             gap: 5px;
+            align-items: center;
             h1{
                 font-size: 1.5rem;
             }
             svg{
                 width: 45px;
                 height: 45px;
+            }
+        }
+        .menu{
+            svg{
+                width: 30px;
             }
         }
         .nav-links{
@@ -1408,6 +1414,9 @@ body{
         padding: 10px 20px;
         .intro-words{
             width: 100%;
+            h1{
+                font-size: 2rem;
+            }
         }
     }
 
