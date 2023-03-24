@@ -1477,6 +1477,7 @@ body{
         .service-card{
             width: 100%;
             flex-direction: column;
+            align-items: center;
         }
     }
 
@@ -1512,9 +1513,10 @@ body{
 @media (max-width:316px) {
     .services{
         .service-card{
-                flex-direction: column;
-                gap: 20px;
-                width: 100%;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            width: 100%;
         }
     }
 }
@@ -1572,7 +1574,7 @@ body{
 @media (max-width:498px) {
     .contacts{
         h1{
-            font-size: 1.8rem ;
+            font-size: 2rem;
         }
     }
 }
