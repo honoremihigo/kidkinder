@@ -1301,7 +1301,7 @@ body {
     width: 100%;
   }
   .intro .intro-words h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 @media (max-width: 400px) {
