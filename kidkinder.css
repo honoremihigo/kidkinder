@@ -1,5 +1,5 @@
 :root {
-  --color-1:#17a2b8;
+  --color-1:RED;
   --color-2:#00394f;
   --color-3:#666666;
   --color-4:white;
@@ -11,6 +11,7 @@
   font-family: sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  transition: 0.5s;
 }
 * a {
   text-decoration: none;
